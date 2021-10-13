@@ -20,7 +20,7 @@ export class MyElement extends LitElement {
 
   render() {
     return html`
-      <button @click=${this._onClick} part="button">
+      <button @click=${this._onClick}>
       ${this.text}
       <slot name='append-icon'></slot>
       </button>
