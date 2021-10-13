@@ -1,0 +1,24 @@
+{
+  "name": "unity-button-lit",
+  "version": "0.0.0",
+  "main": "dist/unity-button.es.js",
+  "exports": {
+    ".": "./dist/unity-button.es.js"
+  },
+  "types": "types/unity-button.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4",
+    "typescript": "^4.3.2"
+  }
+}
